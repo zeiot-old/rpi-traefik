@@ -16,4 +16,4 @@ VOLUME ["/etc/traefik"]
 
 ENTRYPOINT [ "/traefik" ]
 
-CMD ["--configFile", "/etc/traefik/traefik.toml"]
+CMD ["--configfile", "/etc/traefik/traefik.toml"]
