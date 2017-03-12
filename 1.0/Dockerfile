@@ -7,7 +7,7 @@ MAINTAINER Nicolas Lamirault <nicolas.lamirault@gmail.com>
 
 ENV TRAEFIK_VERSION 1.0.3
 
-ADD https://github.com/containous/traefik/releases/download/v${TRAEFIK_VERSION}/traefik_linux-arm /traefik
+ADD https://github.com/containous/traefik/releases/download/v${TRAEFIK_VERSION}/traefik_linux /traefik
 
 RUN chmod +x /traefik
 
